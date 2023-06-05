@@ -1,0 +1,127 @@
+
+:root{
+  --color-title:#FF3F34;
+  --color-backgroundtela:#322C2C;
+  --color-font:#FFFF;
+  --color-button:#7C5E99;
+  --color-black :#000000;
+}
+
+body{
+    background-color: var(--color-backgroundtela);
+    font-family: 'Press Start 2P', cursive;
+}
+.main-title{
+   color: var(--color-title);
+   font-size: 40px;
+  text-shadow: 5px 10px 0px var(--color-black);
+  text-align: center;
+}
+
+.main-label{
+  color: var(--color-font);
+  font-size: 25px;
+  font: 400 25px'Fira Code', monospace;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  display: block;
+}
+
+.main-input{
+  box-sizing: border-box;
+  width:340px;
+  height: 30px;
+  display:block;
+  border: 2px solid var(--color-black);
+  box-shadow: 5px 5px 0px var(--color-black);
+  font: inherit;
+  padding:2px;
+  margin: auto auto 20px;
+  
+  
+}
+
+.main-button{
+  margin-top: 50px;
+  padding:10px;
+  text-align: center;
+  font:inherit;
+  color:var(--color-font);
+  background-color: var(--color-button);
+  width: 340px;
+  height: 30px;
+  box-shadow: 5px 5px 0px var(--color-black);
+  border:4px;
+  margin:auto;
+  box-align: center;
+  display: block;
+  transition:transform 200ms ease-in-out;
+}
+
+.main-button:hover{
+  transform:scale(1.02);
+}
+
+.list-banners{
+  display:flex;
+ justify-content: center;
+ padding-top: 100px;
+ flex-wrap: wrap;
+ padding-bottom:50px;
+}
+
+.list-banners .Wrapper-banner{
+  margin-left:30px;
+  margin-right:30px;
+  margin-bottom: 50px;
+}
+.Wrapper-banner{
+display: flex;
+flex-direction: column;
+align-items: center;
+cursor: pointer;
+transition: 400ms transform linear;
+}
+
+.Wrapper-banner:hover{
+  transform: scale(1.1);
+  transition: 400ms transform linear;
+}
+.Wrapper-banener .banner{
+  margin-bottom: 30px;
+}
+
+.Wrapper-banner .main-caption{
+  width: 160px;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+.main-banner{
+  border:2px solid  var(--color-title);
+    box-shadow: 5px 5px 0px var(--color-black);;
+}
+
+.main-caption{
+  color:var(--color-font);
+  text-shadow: 4px 4px  var(--color-black);
+}
+
+.main-footer{
+display:flex;
+flex-direction:column;
+align-items: center; 
+padding-bottom:20px;
+}
+
+.main-footer .logo {
+  margin-bottom: 15px;
+}
+
+.main-footer .title{
+
+  font-size:22px;
+  color: var(--color-font);
+}
+
